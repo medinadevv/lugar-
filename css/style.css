@@ -127,7 +127,7 @@ body {
 }
 
 .hero-img {
-    width: 510px;
+    width: 484px;
 }
 
 .vector {
@@ -190,6 +190,7 @@ body {
 }
 
 .project-all {
+    position: relative;
     padding: 60px 0;
     display: flex;
     align-items: center;
@@ -228,8 +229,8 @@ body {
 
 
 .project-div {
-    width: 260px;
-    height: 60px;
+    width: 153px;
+    height: 72px;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.04);
     position: absolute;
     bottom: -20px;
@@ -246,8 +247,8 @@ body {
 }
 
 .project-div1 {
-    width: 57px;
-    height: 60px;
+    width: 153px;
+    height: 72px;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.04);
     position: absolute;
     bottom: -20px;
@@ -289,7 +290,7 @@ body {
 }
 .pro {
     width: 122px;
-    height: 450px;
+    height: 276px;
 }
 
 .smile1 {
@@ -316,6 +317,17 @@ body {
     justify-content: space-between;
 }
 
+.figures {
+    width: 30px;
+    padding: 10px 0;
+    display: flex;
+}
+.figure{
+    clip-path: polygon(25% 0%, 70% 0, 42% 100%, 0% 100%);
+    background: #AFD4E2;
+    width: 23px;
+    height: 23px;
+}
 .smile-vector {
     margin-left: 40px;
 }
@@ -381,11 +393,16 @@ body {
 
 }
 
-.input-next input {
+.input-next textarea {
+    padding: 10px 10px;
     width: 540px;
     height: 120px;
     background: #FFFFFF;
     border: 1px solid #1E3240;
+    font-weight: 400;
+    font-size: 18px;
+    color: #BDBDBD;
+
 
 }
 
@@ -520,7 +537,7 @@ body {
 
 .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 80%;
 }
 
 
